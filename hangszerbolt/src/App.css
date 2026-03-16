@@ -1,0 +1,42 @@
+.instrument-card {
+  min-height: 100%;
+}
+
+.instrument-card-clickable {
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.instrument-card-clickable:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.instrument-title {
+  min-height: 2.8rem;
+}
+
+.instrument-image-wrap {
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instrument-image {
+  max-height: 180px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.detail-card {
+  max-width: 500px;
+}
+
+.detail-image {
+  height: 240px;
+}
+
+.new-instrument-form {
+  max-width: 560px;
+}
